@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F16C882226F2137C00D911D3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16C882126F2137C00D911D3 /* Account.swift */; };
 		F17DE7DF26F1CD55008CF458 /* SimpliFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DE7DE26F1CD55008CF458 /* SimpliFiApp.swift */; };
 		F17DE7E126F1CD55008CF458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DE7E026F1CD55008CF458 /* ContentView.swift */; };
 		F17DE7E326F1CD56008CF458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17DE7E226F1CD56008CF458 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F16C882126F2137C00D911D3 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		F17DE7DB26F1CD55008CF458 /* SimpliFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17DE7DE26F1CD55008CF458 /* SimpliFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliFiApp.swift; sourceTree = "<group>"; };
 		F17DE7E026F1CD55008CF458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				F17DE7DE26F1CD55008CF458 /* SimpliFiApp.swift */,
 				F17DE7E026F1CD55008CF458 /* ContentView.swift */,
+				F16C882126F2137C00D911D3 /* Account.swift */,
 				F17DE7ED26F1CDC8008CF458 /* Budget.swift */,
 				F17DE7E226F1CD56008CF458 /* Assets.xcassets */,
 				F17DE7E726F1CD56008CF458 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F17DE7E126F1CD55008CF458 /* ContentView.swift in Sources */,
+				F16C882226F2137C00D911D3 /* Account.swift in Sources */,
 				F17DE7DF26F1CD55008CF458 /* SimpliFiApp.swift in Sources */,
 				F17DE7EE26F1CDC8008CF458 /* Budget.swift in Sources */,
 			);
