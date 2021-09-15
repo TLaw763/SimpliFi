@@ -26,8 +26,12 @@ struct ContentView: View {
                     Text("Accounts" .uppercased())
                         .padding()
                     HStack{
-                        SubPill(accountName: "Wallet", accountBalance: "300", currency: accountCurrency, pillColor: .blue)
-                            .padding(.leading)
+                        NavigationLink (
+                            destination: Account(),
+                            label: {
+                                SubPill(accountName: "Wallet", accountBalance: "300", currency: accountCurrency, pillColor: .blue)
+                                    .padding(.leading)
+                            })
                         SubPill(accountName: "Personal Savings", accountBalance: "1156", currency: accountCurrency, pillColor: .yellow)
                             .padding(.trailing)
                     }
