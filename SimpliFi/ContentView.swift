@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color("lightGray")
+                Color("grey")
                     .ignoresSafeArea()
                 VStack {
                     Text("Summary" .uppercased())
@@ -66,9 +66,10 @@ struct MainPill: View {
             Spacer()
             Text(currency + pillTotal)
                 .font(.largeTitle)
+                .fontWeight(.semibold)
         }
         .padding()
-        .background(Color("lightGray"))
+        .background(Color("grey"))
         .cornerRadius(8)
     }
 }
@@ -87,9 +88,10 @@ struct SubPill: View {
             Spacer()
             Text(currency + accountBalance)
                 .font(.body)
+                .fontWeight(.semibold)
         }
         .padding()
-        .background(Color("lightGray"))
+        .background(Color("grey"))
         .cornerRadius(8)
     }
 }
